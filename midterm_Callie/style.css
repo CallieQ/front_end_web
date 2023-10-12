@@ -463,33 +463,5 @@ body{
       animation-name: works;
       animation-duration: 0.2s;
     }
-
-    h1{
-      font-family: "Inter", sans-serif;
-      font-weight: normal;
-      font-size: 1.25em;
-    }
-    
-    h2{
-      font-family: "Inter", sans-serif;
-      font-weight: lighter;
-      font-size:1.25em;
-      margin-bottom:0em;
-    }
-    
-    ul{
-      font-family: "Inter", sans-serif;
-      font-weight: lighter;
-      font-size: 1em;
-      list-style-type:none;
-      color:#959595;
-      margin-top:0em;
-      margin-bottom:0.5em;
-    }
-
-    .work-words h2{
-      font-size: 1.25em;
-      margin-top: 0em;
-    }
   
   }
