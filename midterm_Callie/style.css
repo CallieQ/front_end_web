@@ -404,9 +404,9 @@ body{
     }
 
     main{
-      float:right;
+      float:left;
       width:100%;
-      margin-right:-2em;
+      margin-right:0em;
       margin-top:-1em;
       padding-right:10%;
     }
