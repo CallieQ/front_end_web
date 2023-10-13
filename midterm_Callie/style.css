@@ -141,8 +141,11 @@ body{
   
   .work{
     display:flex;
-    margin-top:2em;
+    margin-top:1em;
+    margin-bottom: 1em;
     flex-flow:column warp;
+    padding-right:1em; 
+    padding-top:1em;
     padding-bottom:1em;
     border-radius: 0.5em;
     filter: grayscale(100%);
@@ -347,10 +350,6 @@ body{
   }
 
   @media (max-width: 700px), screen and (orientation: portrait) {
-    .work-image{
-      max-width: 100%;
-      max-height: 100%;
-    }
     .side-nav{
       margin-left:0em;
       margin-top:-1em;
@@ -406,10 +405,9 @@ body{
     main{
       float:left;
       width:100%;
-      margin-right:auto;
-      margin-left: auto;
+      margin-right:0em;
       margin-top:-1em;
-      padding-right:0em;
+      padding-right:10%;
     }
 
     .blank{
@@ -419,13 +417,13 @@ body{
     }
 
     .work{
-      display:block;
+      width:90%;
+      display:flex;
       margin-top:1em;
-      padding-bottom:1em;
       border-radius: 0.5em;
       filter: grayscale(100%);
-      margin-left: 2em;
-      margin-right: 2em;
+      margin-left:5%;
+      margin-right:5%;
     }
 
     .about{
@@ -435,6 +433,18 @@ body{
 
     .contact{
       margin-left: 2em;
+    }
+
+    .work-pic{
+      object-fit: cover;
+    }
+
+    .work-image{
+      border-radius: 10px;
+      margin:0em;
+      object-fit: cover;
+      width: auto;
+      height: auto;
     }
 
     .pic-wall{
@@ -459,8 +469,4 @@ body{
       animation-duration: 0.2s;
     }
   
-    .work-words{
-      width:auto;
-      margin-right:1em;
-    }
   }
