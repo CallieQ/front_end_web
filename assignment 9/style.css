@@ -1,0 +1,27 @@
+body, html {
+    margin-top: 5em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#diceContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+}
+
+.dice {
+    width: 30px;
+    margin: 10px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}

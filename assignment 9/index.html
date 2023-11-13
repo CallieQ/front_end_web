@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roll 12-Faces Dice</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Roll 12-Faces Dice</h1>
+  <div id="diceContainer"> 
+    <div id="dice1" class="dice">1</div>
+    <div id="dice2" class="dice">1</div>
+    <div id="dice3" class="dice">1</div>
+    <div id="dice4" class="dice">1</div>
+    <div id="dice5" class="dice">1</div>
+  </div>
+
+  <div id="buttons">
+    <button id="generateButton" onclick="generateDice()">Randomize Dice</button>
+    <button id="setButton" onclick="setDice(Number(document.getElementById('set').value))">Set All Dice to <input type="text" id="set"></button>
+    <button id="addButton" onclick="addDice(Number(document.getElementById('add').value))">Add First <input type="text" id="add"> Dice</button>
+  </div>
+
+  <div id="output">
+  </div>
+
+</body>
+</html>
