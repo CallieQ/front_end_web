@@ -1,12 +1,3 @@
-document.getElementById('generateButton').onclick = generateDice();
-document.getElementById('setButton').onclick = function() {
-    setDice(Number(document.getElementById('set').value));
-};
-document.getElementById('addButton').onclick = function() {
-    addDice(Number(document.getElementById('add').value));
-};
-
-
 function generateDice() {
   for (let i = 1; i <= 5; i++) {
       document.getElementById('dice' + i).innerHTML = `<b>${Math.floor(Math.random() * 12) + 1}</b>`;
