@@ -1,0 +1,55 @@
+body, html {
+    margin-top: 5em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+img{
+    width: 250px;
+}
+
+h1, h2{
+    margin-bottom: 5px;
+}
+
+p{
+    margin-top: 5px;
+}
+
+#search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+#historySearch {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 250px;
+}
+
+#historySearchNames {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 5px;
+    width: 250px;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 10px;
+}
+
+#button {
+    margin: 10px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon Search</title>
+  <script src="script.js" defer async></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Pokemon Search</h1>
+  <p>Search pokemon by entering ID.</p>
+  <div id="search">
+    <div id="searchBox"><input type="text" id="inputId"></div>
+    <div id="button">
+      <button id="searchButton" onclick="searchPokemon(String(document.getElementById('inputId').value))">Search Pokemon</button>
+    </div>
+  </div>
+  <div id="output">
+  </div>
+  <div id="historySearch">
+    <h2>Search History</h2>
+    <div id="historySearchNames"></div>
+  </div>
+</body>
+</html>
+
